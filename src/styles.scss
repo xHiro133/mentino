@@ -1,0 +1,23 @@
+// Variables will be overwritten by themes.service.ts
+:root {
+    --white: #ccc;
+    --black: #111;
+    --primary: #1f1925;
+    --secondary: #39212e;
+    --accent: #233229;
+    --light: #e8d4bb;
+    --dark: #101012;
+    --danger: #721f2a;
+    --success: #3d612e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    color: var(--black);
+}
