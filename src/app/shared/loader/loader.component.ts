@@ -4,7 +4,8 @@ import { LoaderService } from "../../services/loader.service";
 @Component({
     selector: 'my-loader',
     templateUrl: './loader.component.html',
-    styleUrls: ['./loader.component.scss']
+    styleUrls: ['./loader.component.scss'],
+    standalone: false
 })
 export class LoaderComponent {
 

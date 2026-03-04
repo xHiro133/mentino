@@ -2,7 +2,8 @@ import { Directive, ElementRef, Input, OnChanges } from "@angular/core";
 import { FeaturesService } from "../services/features.service";
 
 @Directive({
-    selector: '[myFeature]'
+    selector: '[myFeature]',
+    standalone: false
 })
 export class FeaturesDirective implements OnChanges {
 
