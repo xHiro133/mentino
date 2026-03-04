@@ -1,24 +1,26 @@
 {
     "light": {
         "white": "#ccc",
-        "black": "#333",
-        "primary": "#395234",
-        "secondary": "#565a50",
-        "accent": "#1a381a",
-        "light": "#979f94",
-        "dark": "#090e07ff",
+        "black": "#111",
+        "primary": "#2d5128",
+        "secondary": "#537b2f",
+        "accent": "#8da750",
+        "light": "#e4eb9c",
+        "dark": "#142c14",
         "danger": "#721f2a",
-        "success": "#3d612e"
+        "success": "#3d612e",
+        "background": "url('/assets/images/leaves_light.jpg')"
     },
     "dark": {
-        "white": "#333",
-        "black": "#ccc",
-        "primary": "#395234",
-        "secondary": "#565a50",
-        "accent": "#1a381a",
-        "light": "#090e07ff",
-        "dark": "#979f94",
+        "white": "#ccc",
+        "black": "#111",
+        "primary": "#0e361c",
+        "secondary": "#19541f",
+        "accent": "#446c48",
+        "light": "#7c9060",
+        "dark": "#042514",
         "danger": "#721f2a",
-        "success": "#3d612e"
+        "success": "#3d612e",
+        "background": "url('/assets/images/leaves_dark.jpg')"
     }
 }

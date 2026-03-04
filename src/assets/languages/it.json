@@ -1,1 +1,17 @@
-{}
+{
+    "language": {
+        "title": "Lingua",
+        "languages": {
+            "english": "Inglese",
+            "italian": "Italiano"
+        }
+    },
+    "theme": {
+        "title": "Tema",
+        "themes": {
+            "light": "Light",
+            "dark": "Dark",
+            "custom": "Custom"
+        }
+    }
+}

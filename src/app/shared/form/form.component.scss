@@ -1,0 +1,12 @@
+.radio {
+    width: 15px;
+    height: 15px;
+    background-color: var(--white);
+    border-radius: 100%;
+}
+
+.selected {
+    .radio {
+        background-color: var(--accent);
+    }
+}

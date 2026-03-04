@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
 
     for (let i = 0; i < servicesToLoad.length; i++) {
       const service = servicesToLoad[i];
-      
+
       (service as Observable<any>).subscribe(() => {
         this.loadedServices[i] = true;
         this._checkAllServicesLoaded();
@@ -56,7 +56,7 @@ export class AppComponent implements OnInit {
 
     this._loaderService.hide();
 
-    this._router.navigate(['']).then(() => {
+    this._router.navigate(['randomBullshitGo']).then(() => {
       this._router.navigate([path]);
     });
 

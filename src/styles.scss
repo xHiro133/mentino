@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+
 // Variables will be overwritten by themes.service.ts
 :root {
     --white: #ccc;
     --black: #111;
-    --primary: #1f1925;
-    --secondary: #39212e;
-    --accent: #233229;
-    --light: #e8d4bb;
-    --dark: #101012;
+    --primary: #0e361c;
+    --secondary: #19541f;
+    --accent: #446c48;
+    --light: #7c9060;
+    --dark: #042514;
     --danger: #721f2a;
     --success: #3d612e;
+    --background: url('/assets/images/leaves_dark.jpg');
 }
 
 * {
@@ -20,4 +23,15 @@ html, body {
     padding: 0;
     background-color: var(--white);
     color: var(--black);
+    background-image: var(--background);
+    background-size: cover;
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
 }

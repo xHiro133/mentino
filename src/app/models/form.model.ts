@@ -1,7 +1,8 @@
 export enum ControlType {
     TEXT,
     PASSWORD,
-    EMAIL
+    EMAIL,
+    RADIO
 }
 
 export interface Control {
@@ -12,6 +13,8 @@ export interface Control {
     state?: ValidityState;
     valid?: boolean;
     required?: boolean;
+    options?: { value: string | number, label: string }[];
+    defaultValue?: any;
 }
 
 export interface MyForm {
